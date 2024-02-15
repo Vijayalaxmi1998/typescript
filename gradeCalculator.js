@@ -1,0 +1,17 @@
+function CalculateGrade(a, b, c) {
+    // calculate the avg of three subj divide result by 3
+    var avg = (a + b + c) / 3;
+    if (avg <= 70) {
+        return "Grade C (".concat(avg, ")");
+    }
+    else if (avg > 70 && avg < 90) {
+        return "Grade B (".concat(avg, ")");
+    }
+    else {
+        return "Grade A (".concat(avg, ")");
+    }
+}
+var math = Number(prompt("Enter the Math marks"));
+var physics = Number(prompt("Enter the Physics marks"));
+var chemistry = Number(prompt("Enter the Chemistry marks"));
+console.log(CalculateGrade(math, physics, chemistry));
