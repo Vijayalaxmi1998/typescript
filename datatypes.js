@@ -1,3 +1,4 @@
+"use strict";
 var Gender;
 (function (Gender) {
     Gender[Gender["Male"] = 0] = "Male";
