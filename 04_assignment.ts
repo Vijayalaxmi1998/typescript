@@ -62,7 +62,7 @@ console.log(uniqueArray1.length);
 // console.log(
 //     `---------------method4 using the filter method--------------------------`
 //   );
-// // let array1:number[]=[11,22,33,22,55,66,11,33,55];
-// // let arrayFilter:number[]=array1.filter(element , index, array1)=>{
-// //     return index===array1.indexOf(element);
-// // }
+// let array1:number[]=[11,22,33,22,55,66,11,33,55];
+// let arrayFilter:number[]=array1.filter(element , index, array1)=>{
+//     return index===array1.indexOf(element);
+// }
