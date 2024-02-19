@@ -43,6 +43,7 @@ class Hundyai extends Car {
   }
   gps = true;
 }
+
 var hundyai=new Hundyai()
 var toyata=new Toyata();
 console.log(hundyai);
