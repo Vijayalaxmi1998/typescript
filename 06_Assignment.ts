@@ -2,7 +2,7 @@ interface INewFeacture {
   gps?: boolean;
 }
 
-abstract class Car implements INewFeacture {
+abstract class Car {
   Wheel(): string {
     return "4 Wheeler";
   }
@@ -16,7 +16,8 @@ abstract class Car implements INewFeacture {
   abstract Price(): number;
   abstract getTotalSeats(): number;
   abstract Color(): string;
-  gps?: boolean;
+  
+  
 }
 
 class Toyata extends Car {
@@ -31,7 +32,7 @@ class Toyata extends Car {
   }
 }
 
-class Hundyai extends Car {
+class Hundyai extends Car implements INewFeacture {
   Price(): number {
     return 900000;
   }
